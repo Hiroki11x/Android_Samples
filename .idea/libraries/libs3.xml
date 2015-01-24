@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ListViewAnimations/lib-core-slh/libs/dexmaker-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ListViewAnimations/lib-core-slh/libs/dexmaker-mockito-1.1-custom.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

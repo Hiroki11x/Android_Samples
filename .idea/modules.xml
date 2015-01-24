@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActiveAndroid_Sample/ActiveAndroid_Sample/ActiveAndroid_Sample.iml" filepath="$PROJECT_DIR$/ActiveAndroid_Sample/ActiveAndroid_Sample/ActiveAndroid_Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BackChangeSample/BackChangeSample.iml" filepath="$PROJECT_DIR$/BackChangeSample/BackChangeSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NotificationTest/NotificationTest.iml" filepath="$PROJECT_DIR$/NotificationTest/NotificationTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Scheduler/Scheduler.iml" filepath="$PROJECT_DIR$/Scheduler/Scheduler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TransferAnimationSample/TransferAnimationSample.iml" filepath="$PROJECT_DIR$/TransferAnimationSample/TransferAnimationSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TwitterOAuthSample/TwitterOAuthSample.iml" filepath="$PROJECT_DIR$/TwitterOAuthSample/TwitterOAuthSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations/lib-manipulation/src/androidTest/androidTest.iml" filepath="$PROJECT_DIR$/ListViewAnimations/lib-manipulation/src/androidTest/androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations/lib-core/src/androidTest/androidTest1.iml" filepath="$PROJECT_DIR$/ListViewAnimations/lib-core/src/androidTest/androidTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../appcompat_v7/appcompat_v7.iml" filepath="$PROJECT_DIR$/../appcompat_v7/appcompat_v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations/lib-core-slh/src/main/main.iml" filepath="$PROJECT_DIR$/ListViewAnimations/lib-core-slh/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations/lib-core/src/main/main1.iml" filepath="$PROJECT_DIR$/ListViewAnimations/lib-core/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations/lib-manipulation/src/main/main2.iml" filepath="$PROJECT_DIR$/ListViewAnimations/lib-manipulation/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListViewAnimations/example/src/main/main3.iml" filepath="$PROJECT_DIR$/ListViewAnimations/example/src/main/main3.iml" />
+    </modules>
+  </component>
+</project>
+

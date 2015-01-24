@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="view_color">#000000</color>
+    <color name="layout_color">#ffffff</color>
+    <color name="view_color_select">#66000000</color>
+</resources>

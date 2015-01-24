@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#5EA9DD">
+     
+    <View
+        android:id="@+id/btnRequest"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_gravity="left|top"
+        android:background="@drawable/authenticate"/>
+    
+    <View
+        android:id="@+id/tweet"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center|bottom|left"
+        android:background="@drawable/tweet"/>
+    <View
+        android:id="@+id/btnClearAuth"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_gravity="center|right"
+        android:background="@drawable/cancel_authenticate"/>
+     
+</FrameLayout>
