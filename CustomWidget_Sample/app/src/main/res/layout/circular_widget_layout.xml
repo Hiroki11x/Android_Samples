@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/widget_left_circle" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/device"
+            android:layout_gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_size_LL"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="7">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Project Name: Control"
+                    android:textColor="#ffffff"
+                    android:id="@+id/name"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="8dp"
+                    android:textSize="@dimen/font_size_LL" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin Name: Hiroki Naganuma"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="left"
+                    android:textSize="@dimen/font_size_SS" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:id="@+id/imageView5"
+                android:background="#ffffff" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/widget_horizontal_bar"
+                android:layout_gravity="top" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project Code 1381"
+                android:id="@+id/textView"
+                android:textColor="#ffffff"
+                android:layout_gravity="right|bottom"
+                android:layout_marginBottom="10dp"
+                android:textSize="@dimen/font_size_SS" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView7"
+                android:layout_gravity="center"
+                android:src="@drawable/widget_slanting_bar"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginTop="12dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OS Version"
+                    android:textColor="#ffffff"
+                    android:id="@+id/os"
+                    android:layout_gravity="left"
+                    android:textSize="@dimen/font_size_L" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Layout Size"
+                    android:textColor="#ffffff"
+                    android:id="@+id/layout_size"
+                    android:layout_gravity="left"
+                    android:textSize="@dimen/font_size_S" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GL EL"
+                    android:textColor="#ffffff"
+                    android:id="@+id/open_gl_version"
+                    android:layout_gravity="left"
+                    android:textSize="@dimen/font_size_S" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:id="@+id/imageView6"
+                android:background="#ffffff"
+                android:layout_gravity="bottom" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                tools:context=".MainActivity"
+                android:orientation="vertical"
+                android:background="#000000"
+                android:padding="10dp"
+                android:paddingBottom="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView"
+        android:layout_weight="5"
+        android:background="#c03e3e3e"
+        android:fillViewport="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txtResult"
+            android:onClick="cancelAsyncTask"
+
+            android:gravity="left|top"
+            android:textSize="10sp"
+            android:textColor="#ffffff"/>
+    </ScrollView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/editText"
+        android:layout_weight="1"
+        android:hint="input URL"
+        android:textColorHint="#aaaaaa"
+        android:textColor="#ffffff"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Start"
+        android:id="@+id/start"
+        android:layout_weight="1"
+        android:onClick="startAsyncTask"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#cf181a33"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Cancel"
+        android:id="@+id/cancel"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:background="#db3c1323"
+        android:textColor="#ffffffff"
+        />
+
+</LinearLayout>
